@@ -1,28 +1,54 @@
-
-
 /* Style Import */
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=David+Libre:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@300&family=Macondo&family=Oswald:wght@200..700&display=swap');
 
-.inter-main> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+
+/* CSS Variables */
+
+*{
+    color: 0;
+    margin: 0;
+    padding: 0
+
 }
 
-.macondo-regular {
-  font-family: "Macondo", cursive;
-  font-weight: 400;
-  font-style: normal;
+
+:root{ 
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a2620;
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
 }
+
+/* Global styles */
 
 body {
-    font-family: "Inter", sans-serif;
-    
+    font-family: var(--primary-font);
 }
 
-h1 {
-    font-family: "Macondo", cursive;
-    background-color: red;
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color) !important;
+    /* color: var(--primary-color); */
 }
 
+p {
+    border: 2px solid var(--primary-color);
+}
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+/* grid visualisations css for testing */
+
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
+}
