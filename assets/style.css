@@ -1,3 +1,28 @@
-body {
-    color: red;
+
+
+/* Style Import */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=David+Libre:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@300&family=Macondo&family=Oswald:wght@200..700&display=swap');
+
+.inter-main> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
+
+.macondo-regular {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    
+}
+
+h1 {
+    font-family: "Macondo", cursive;
+    background-color: red;
+}
+
