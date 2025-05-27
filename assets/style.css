@@ -41,6 +41,15 @@ p {
     color: var(--highlight-color);
 }
 
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
 /* grid visualisations css for testing */
 
 /* .container,
