@@ -86,6 +86,22 @@ p {
 }
 
 
+/* Games Library */
+
+/* Games Library Cards */
+
+#new-games .card {
+    border: none;
+
+}
+
+
+
+#fav-games.section{
+    margin-top: 20px;
+
+}
+
 
 /* grid visualisations css for testing */
 
