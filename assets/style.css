@@ -131,6 +131,15 @@ p {
 
 }
 
+/* Events Section */
+
+#student-offer {
+    width: 300px;
+    background-color: var(--highlight-color);
+    color: white;
+    
+}
+
 
 /* Footer / Contact*/
 
