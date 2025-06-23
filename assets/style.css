@@ -140,7 +140,16 @@ p {
     background-color: var(--highlight-color);
     color: white;
 
-
+    font-weight: bold;
+    max-width: 300px;
+     padding: 5px 10px; 
+         font-size: 0.8rem;
+  
+      display: block;
+    
+  
+     margin: auto;
+   
 
     
 }
